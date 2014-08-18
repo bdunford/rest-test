@@ -1,0 +1,10 @@
+{
+    "name": "rest-rest",
+    "description": "Rest Service for Testing clients and Mocking Servers",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "express": "4.x",
+        "body-parser": "x.x"
+    }
+}
