@@ -8,6 +8,7 @@ Requires Nodejs http://nodejs.org
 
 
 Installing
+
 1. clone rest-test > git clone https://github.com/bdunford/rest-test.git
 
 2. go to rest-test > cd rest-test
