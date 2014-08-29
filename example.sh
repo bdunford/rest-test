@@ -13,19 +13,22 @@ echo $ins
 curl -X DELETE "http://127.0.0.1:3001/customer/1"  -H "Content-Type: application/json" -v
 echo ""
 echo $ins
-curl -X GET "http://127.0.0.1:3001/test-a-status/200"  -H "Content-Type: application/json" -v
+curl -X GET "http://127.0.0.1:3001/example/"  -H "Content-Type: application/json" -v
 echo ""
 echo $ins
-curl -X GET "http://127.0.0.1:3001/test-a-status/204"  -H "Content-Type: application/json" -v
+curl -X GET "http://127.0.0.1:3001/status/200"  -H "Content-Type: application/json" -v
 echo ""
 echo $ins
-curl -X GET "http://127.0.0.1:3001/test-a-status/401"  -H "Content-Type: application/json" -v
+curl -X GET "http://127.0.0.1:3001/status/204"  -H "Content-Type: application/json" -v
 echo ""
 echo $ins
-curl -X GET "http://127.0.0.1:3001/test-a-status/403"  -H "Content-Type: application/json" -v
+curl -X GET "http://127.0.0.1:3001/status/401"  -H "Content-Type: application/json" -v
 echo ""
 echo $ins
-curl -X GET "http://127.0.0.1:3001/test-a-status/404"  -H "Content-Type: application/json" -v
+curl -X GET "http://127.0.0.1:3001/status/403"  -H "Content-Type: application/json" -v
 echo ""
 echo $ins
-curl -X GET "http://127.0.0.1:3001/test-a-status/500"  -H "Content-Type: application/json" -v
+curl -X GET "http://127.0.0.1:3001/status/404"  -H "Content-Type: application/json" -v
+echo ""
+echo $ins
+curl -X GET "http://127.0.0.1:3001/status/500"  -H "Content-Type: application/json" -v
