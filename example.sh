@@ -4,6 +4,9 @@ echo $ins
 curl -X POST "http://127.0.0.1:3001/customer/"  -H "Content-Type: application/json" -d @test.json -v
 echo ""
 echo $ins
+curl -X POST "http://127.0.0.1:3001/customer/"  -H "Content-Type: application/x-www-form-urlencoded" -d @test.json -v
+echo ""
+echo $ins
 curl -X GET "http://127.0.0.1:3001/customers/1"  -H "Content-Type: application/json" -v
 echo ""
 echo $ins

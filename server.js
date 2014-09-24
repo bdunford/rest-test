@@ -23,11 +23,13 @@ function getResponseBody(req) {
 var app = express();
 
 app.set('port', (process.env.PORT || 3001))
-app.use(bodyParser.urlencoded({extended: true}));
-app.use(bodyParser.json());
+app.use(function (req, res, next) {
+    var bodyParserJson = bodyParser.json({type: req.headers["content-type"]});
+    bodyParserJson(req, res, next);
+});
+
 
 app.all('/status/:status*', function(req, res){
-    console.log(req.params.status)
     log(req);
     if (!req.params.status || req.params.status == 200) {
         res.send(getResponseBody(req));
