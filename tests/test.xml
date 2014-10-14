@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customer>
+    <name>Sam</name>
+    <address>21 Front Street</address>
+    <city>Dayton</city>
+    <state>Ohio</state>
+    <zip>45402</zip>
+    <phone>937-522-4200</phone>
+</customer>

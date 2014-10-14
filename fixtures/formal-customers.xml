@@ -1,0 +1,29 @@
+<customers>
+    <customer>
+        <id>1</id>
+        <name>Jenny</name>
+        <address>1 w 3rd Street</address>
+        <city>Dayton</city>
+        <state>Ohio</state>
+        <zip>45402</zip>
+        <phone>937-867-5309</phone>
+    </customer>
+    <customer>
+        <id>2</id>
+        <name>Bob</name>
+        <address>14 Bear Street</address>
+        <city>Dayton</city>
+        <state>Ohio</state>
+        <zip>45402</zip>
+        <phone>937-111-7777</phone>
+    </customer>
+    <customer>
+        <id>3</id>
+        <name>Trigger</name>
+        <address>156 Lemon Street</address>
+        <city>Dayton</city>
+        <state>Ohio</state>
+        <zip>45402</zip>
+        <phone>937-232-0001</phone>
+    </customer>
+</customers>

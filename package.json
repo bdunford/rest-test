@@ -5,6 +5,8 @@
     "private": true,
     "dependencies": {
         "express": "4.x",
-        "body-parser": "x.x"
+        "body-parser": "x.x",
+        "xml": "x.x",
+        "xml2js": "x.x"
     }
 }

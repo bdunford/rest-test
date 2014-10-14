@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1",
+        "name": "Jenny",
+        "address": "1 w 3rd Street",
+        "city": "Dayton",
+        "state": "Ohio",
+        "zip": "45402",
+        "phone": "937-867-5309"
+    },
+    {
+        "id": "2",
+        "name": "Bob",
+        "address": "14 Bear Street",
+        "city": "Dayton",
+        "state": "Ohio",
+        "zip": "45402",
+        "phone": "937-111-7777"
+    },
+    {
+        "id": "3",
+        "name": "Trigger",
+        "address": "156 Lemon Street",
+        "city": "Dayton",
+        "state": "Ohio",
+        "zip": "45402",
+        "phone": "937-232-0001"
+    }
+]
