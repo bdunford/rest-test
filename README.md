@@ -33,7 +33,7 @@ Requires Nodejs http://nodejs.org
 
 ###Fixtures
 
-- You can add your own fixtures by adding a correctly formated json or xml file in the fixtures folder.  The name of the file will relate to the path. Path segments are separated by "-".  _example: "/movies/family/"_ would route to fixture movies-family.json or movies-family.xml
+- You can add your own fixtures by adding a correctly formated JSON or XML file in the fixtures folder.  The name of the file will relate to the path. Path segments are separated by "-".  _example: "/movies/family/"_ would route to fixture movies-family.json or movies-family.xml
 
 - There are three sample fixtures
 
@@ -47,7 +47,7 @@ Requires Nodejs http://nodejs.org
 
 ###Formats
 
-- json, xml, urlencoded are all accepted formats for the request content.  json and xml can be chosen as the response content type. json is the default
+- JSON, XML, urlencoded are all accepted formats for the request content.  JSON and XML can be chosen as the response content type. JSON is the default
 
 - Ending a path in .json or .xml will set the response content type and format.  ```example: http://127.0.0.1:3001/customers.xml or http://127.0.0.1:3001/customers/2.xml```
 

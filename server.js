@@ -14,6 +14,10 @@ app.all('/status/:status*', function(req, res){
     restTest.sendStatus(res,req.params.status);
 });
 
+app.all('/redirect',function(req,res) {
+    res.redirect('/cusomters/');
+});
+
 app.all('/*',function(req,res) {
     restTest.handle(req,res);
 });
