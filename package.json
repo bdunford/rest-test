@@ -6,7 +6,10 @@
     "dependencies": {
         "express": "4.x",
         "body-parser": "x.x",
-        "xml": "x.x",
-        "xml2js": "x.x"
+        "xml2js": "x.x",
+        "helpers": "git+https://github.com/bdunford/helpers.git"
+    },
+    "scripts" : {
+        "test" : "jasmine-node spec"
     }
 }

@@ -1,0 +1,57 @@
+[
+    {
+        "id": "1",
+        "customer": "/customers/1",
+        "product": "ball",
+        "qty": "3"
+    },
+    {
+        "id": "2",
+        "customer": "/customers/1",
+        "product": "bat",
+        "qty": "1"
+    },
+    {
+        "id": "3",
+        "customer": "/customers/1",
+        "product": "glove",
+        "qty": "1"
+    },
+    {
+        "id": "4",
+        "customer": "/customers/2",
+        "product": "ball",
+        "qty": "5"
+    },
+    {
+        "id": "5",
+        "customer": "/customers/2",
+        "product": "bat",
+        "qty": "2"
+    },
+    {
+        "id": "6",
+        "customer": "/customers/2",
+        "product": "glove",
+        "qty": "4"
+    },
+    {
+        "id": "7",
+        "customer": "/customers/3",
+        "product": "ball",
+        "qty": "1"
+    },
+    {
+        "id": "8",
+        "customer": "/customers/3",
+        "product": "bat",
+        "qty": "1"
+    },
+    {
+        "id": "9",
+        "customer": "/customers/3",
+        "product": "glove",
+        "qty": "1"
+    }
+
+]

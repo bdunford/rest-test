@@ -1,0 +1,27 @@
+[
+    {
+        "id"   : 1,
+        "size" : "L",
+        "name" : "bob"
+    },
+    {
+        "id"   : 2,
+        "size" : "S",
+        "name" : "tim"
+    },
+    {
+        "id"   : 3,
+        "size" : "M",
+        "name" : "sam"
+    },
+    {
+        "id"   : 4,
+        "size" : "M",
+        "name" : "lee"
+    },
+    {
+        "id"   : 5,
+        "size" : "L",
+        "name" : "jon"
+    }
+]

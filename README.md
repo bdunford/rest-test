@@ -33,14 +33,12 @@ Requires Nodejs http://nodejs.org
 
 ###Fixtures
 
-- You can add your own fixtures by adding a correctly formated JSON or XML file in the fixtures folder.  The name of the file will relate to the path. Path segments are separated by "-".  _example: "/movies/family/"_ would route to fixture movies-family.json or movies-family.xml
+- You can add your own fixtures by adding a correctly formated JSON file in the fixtures folder.  The name of the file will relate to the path. Path segments are separated by "-".  _example: "/movies/family/"_ would route to fixture movies-family.json or movies-family.xml
 
 - There are three sample fixtures
 
     ```fixtures/customers.json http://127.0.0.1:3001/customers/```
-    ```fixtures/hip-customers.json http://127.0.0.1:3001/hip/customers/```
-    ```fixtures/formal-customers.xml http://127.0.0.1:3001/formal/customers/```
-
+    ```fixtures/customer-orders.json http://127.0.0.1:3001/hip/customers/```
 
 - GET, POST, PUT, DELETE are all supported.  POST, PUT and DELETE for now are mocked and do not affect the data. PUT and DELETE expect an id ```example: http://127.0.0.1:3001/customers/1```. GET can also be used with an id to select a single object from a fixture.
 
