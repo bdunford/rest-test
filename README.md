@@ -1,4 +1,4 @@
-#rest-test
+# rest-test
 
 
 Node project for testing Rest Clients or Mocking Rest Servers. Ideal for developing and testing single page applications.
@@ -7,7 +7,7 @@ Node project for testing Rest Clients or Mocking Rest Servers. Ideal for develop
 Requires Nodejs http://nodejs.org
 
 
-###Installing
+### Installing
 
 1. Clone rest-test > git clone https://github.com/bdunford/rest-test.git
 
@@ -21,7 +21,7 @@ Requires Nodejs http://nodejs.org
 
      ```curl -X GET "http://127.0.0.1:3001/customers/"  -H "Content-Type: application/json" -v```
 
-###Usage
+### Usage
 
 - Mocking API/endpoint for Single Page Apps, by adding fixtures containing mock data.
 
@@ -31,7 +31,7 @@ Requires Nodejs http://nodejs.org
 
 - ./test/example.sh contains several curl requests to rest-test.  to use > cd test > sudo chmod +x test.sh  then > ./test.sh
 
-###Fixtures
+### Fixtures
 
 - You can add your own fixtures by adding a correctly formated JSON file in the fixtures folder.  The name of the file will relate to the path. Path segments are separated by "-".  _example: "/movies/family/"_ would route to fixture movies-family.json or movies-family.xml
 
@@ -43,7 +43,7 @@ Requires Nodejs http://nodejs.org
 - GET, POST, PUT, DELETE are all supported.  POST, PUT and DELETE for now are mocked and do not affect the data. PUT and DELETE expect an id ```example: http://127.0.0.1:3001/customers/1```. GET can also be used with an id to select a single object from a fixture.
 
 
-###Formats
+### Formats
 
 - JSON, XML, urlencoded are all accepted formats for the request content.  JSON and XML can be chosen as the response content type. JSON is the default
 
